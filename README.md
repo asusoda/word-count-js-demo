@@ -6,11 +6,11 @@ This demonstration was made for the Intro to JavaScript talk at [SoDA](https://t
 
 Take a look at the [talk slides](https://docs.google.com/presentation/d/1mtxxSpUGrd831Afmzd9HedntjkSSUA7yiPHD5OsBIIs/edit?usp=sharing) and [talk recording](https://drive.google.com/file/d/1vwm8Ma29QHU72rTAUqRtIDflFyovAGbM/view?usp=sharing).
 
-This git repository contains a web page ([`index.html`](index.html)) which loads a JavaScript file ([`demo.js`](demo.js)) using a `<script>` element. In `demo.js`, we count how many words a person has typed into a text area as they type, and display the word count below the text area. The word count turns green they have met their goal for the number of words, which they write in a text box.
+This git repository contains a web page ([`index.html`](index.html)) which loads a JavaScript file ([`demo.js`](demo.js)) using a `<script>` element. In `demo.js`, we count how many words a person has typed into a text area as they type, and display the word count below the text area. The word count turns green when they have met their goal, which they write in a text box, for the number of words.
 
 In this code, we use functions, if statements, strings, numbers, `const` and `let` declarations, and the DOM (Document Object Model).
 
-Check [`demo.js`](demo.js) for the code and a walk through of how it works.
+Check [`demo.js`](demo.js) for the code and a walkthrough of how it works.
 
 ## Resources
 
