@@ -13,9 +13,11 @@ area, events named 'input' are created (often the term 'fired' is used). By call
 `addEventListener` method on the wordsElement (the text area), we are telling the browser that
 we want to react to 'input' events that are fired from the text area. The code that responds to
 the event is the function that is the second argument. */
+wordsElement.addEventListener('input', countWordsAndUpdatePage);
 
-wordsElement.addEventListener('input', function () {
-
+/* This function runs for every 'input' event from the <textarea> element, that is, when you type
+into the text area. */
+function countWordsAndUpdatePage() {
   /* Grab the text the user has entered into the text area so far, remove extra whitespace at the
   beginning and end, then split the string at every group of whitespace characters. This results
   in an array of words. */
@@ -52,4 +54,4 @@ wordsElement.addEventListener('input', function () {
     // If we have not reached the goal, turn the 'word count/goal words' text red :(
     indicatorElement.style.color = "red";
   }
-});
+}
